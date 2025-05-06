@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="teste.js"></script>
+    <link rel="stylesheet" type="text/css" href="teste.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Sinal Media</title>
+</head>
+<body>
+    <header>
+        <div class="logo">SINAL <span>MEDIA</span></div>
+        <nav>
+          <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <a href="#" class="active">Home</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+          </ul>
+          <ul>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Serviços</a></li>
+            <li class="hideOnMobile"><a href="#">Contato</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <!-- <section class="banner">
+        <div class="texto-banner">
+          <h1>Engenharia com eficiência e qualidade</h1>
+          <p>Projetos, energia solar, automação e mais</p>
+        </div>
+      </section>
+    -->
+      <section class="servicos">
+        <h2>Veja o que podemos fazer por vocês</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Projeto</h3>
+            <p>Projete seus sonhos com planejamento.</p>
+          </div>
+          <div class="card">
+            <h3>Estrutura</h3>
+            <p>Um projeto bem estruturado reduz os riscos de erros.</p>
+          </div>
+          <div class="card">
+            <h3>Elétrica/Automação</h3>
+            <p>Automação reduz consumo e aumenta o conforto.</p>
+          </div>
+          <div class="card">
+            <h3>Energia Solar</h3>
+            <p>Gere sua própria energia com eficiência.</p>
+          </div>
+          <div class="card">
+            <h3>Climatização</h3>
+            <p>Ambiente climatizado é conforto garantido.</p>
+          </div>
+        </div>
+      </section>
+    
+      <footer>
+        <p>&copy; 2025 Sinal Media. Todos os direitos reservados.</p>
+      </footer>
+</body>
+</html>
